@@ -1,0 +1,15 @@
+{
+  "schema_version": "1",
+  "plugin_id": "community.example.chain",
+  "name": "Community Example Chain",
+  "family": "cosmos",
+  "capabilities": ["account_identity", "submit_signed_tx"],
+  "chains": [
+    {
+      "chain_id": "community-test-1",
+      "display_name": "Community Test",
+      "bech32_prefix": "comm",
+      "rpc_endpoint": "https://example-rpc.invalid"
+    }
+  ]
+}
